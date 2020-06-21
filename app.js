@@ -337,7 +337,118 @@
 // alert("car is smaller than cat");
 // }
 
+// chapter 8
 
+// Task 1:
+
+  //  var ch = prompt("Enter a character");
+  //   if (ch.charCodeAt(0)<65){
+  //     alert("wohooo");
+  //   }
+   
+  //  Task 2:
+// var value1 = window.prompt("Enter first value ");
+// var value2 = window.prompt("Enter second value");
+// if (value1 < value2){
+//   alert(value1 + " is smaller" );
+// } else if ( value1 > value2){
+//   alert( value1 + " is greater");
+// } else if(value1 == value2){
+//   alert("Two integers are equal");
+// }else {
+//   alert("Enter a valid number");
+// }
+
+// Task 3:
+
+// var num = prompt("Enter a number");
+// if (num < 0){
+//   alert("Number is negative");
+// }
+// else if (num > 0){
+//   alert("Number is positive");
+// }
+// else if (num == 0){
+//   alert("Number is zero");
+// }
+// else {
+//   alert("Enter a valid number");
+// }
+
+// Task 4:
+
+// var ch = prompt("Enter any character");
+// if ( ch === "A" || ch === "a" || ch==="E" || ch==="e" || ch==="I" || ch==="i" || ch === "O" || ch==="o" || ch==="U"|| ch==="u"){
+//   alert("Its a vowel");
+// } else {
+//   alert("Its not a vowel");
+// }
+
+// Task 5:
+
+// var pass = prompt("Please Enter you password");
+// if ( pass === "rasheeda123"){
+//   alert("Correct!");
+// } else {
+//   alert("Incorrect password!");
+// }
+
+// Task 6:
+
+// var greeting;
+// var hour = 13;
+//  if (hour < 18) {
+//   greeting = "Good day";} 
+//   else
+//   {greeting = "Good evening";
+//   }
+  
+// Task 7:
+
+// var time = prompt("Enter time");
+
+// if (time>=0000 && time < 1200){
+//   alert("Good Morning!");
+// } else if(time >= 1200 && time < 1700){
+//   alert("Good Afternoon!");
+// } else if ( time >= 1700 && time < 2100){
+//   alert("Good Evening!");
+// } else if ( time >= 2100 && time <= 2359){
+//   alert("Good Night!");
+// }
+ 
+// chapter no 9
+
+// Task no: 1
+
+// var fruits, text, fLen, i;
+// fruits = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil", "PhD"];
+// fLen = fruits.length;
+
+// text = "<ol>";
+// for (i = 0; i < fLen; i++) {
+//   text += "<li>" + fruits[i] + "</li>";
+// }
+// text += "</ol>";
+// document.write("<h1>" + "Qualifications" + "</h1>");
+// document.write(text);
+
+// Task no: 2
+
+// var name = ["Michael", "John" , "Tony"];
+// var score = ["320","230","480"];
+
+// Task no: 5
+
+// var cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
+// var selectedCities = cities.splice(2,2);
+// console.log(selectedCities);
+
+// Task no: 6
+
+// var arr = [ "this", "is ", "my", "cat"];
+// console.log(arr.toString());
+// console.log(arr.join());
 
 
 
